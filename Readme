@@ -1,0 +1,41 @@
+# Flask Todo Application
+
+This is a simple Todo application built with Flask and SQLite. Users can add, edit, delete, and toggle completion status of todo items. Additionally, users can filter to view only the completed todos.
+
+## Overview
+
+This project demonstrates a basic implementation of a CRUD (Create, Read, Update, Delete) application using Flask. The main features include:
+- Adding new todo items
+- Editing existing todo items
+- Deleting todo items
+- Toggling the completion status of todo items
+- Filtering and viewing completed todo items
+
+## Prerequisites
+
+Ensure you have the following installed on your system:
+- Python 3.x
+- pip (Python package installer)
+
+## Dependencies
+
+The application requires the following Python packages:
+- Flask
+- Flask-SQLAlchemy
+
+To run
+- Open a web browser and go to http://127.0.0.1:5000/.
+- Navigate to the URLs to trigger the routes with print statements.
+- For example:
+- Go to http://127.0.0.1:5000/edit/1 to edit the todo item with id=1.
+- Go to http://127.0.0.1:5000/completed to view completed todos.
+
+Tests
+Currently, there are no automated tests included in this project. You can manually test the functionality by interacting with the application through the web interface.
+
+Additional Notes
+Ensure that you restart the Flask server whenever you make changes to the code.
+The SQLite database (todos.db) is created automatically when you run the application for the first time.
+
+Challenges
+There were several challenges faced during this project. Setting up the virtual environment, for one, was challenging. I had to set up administration permissions on my hard drive. Once completed, I faced the challenge of styling my two new features, the completed and edit features. I added code to the index.html but it threw a syntax template error. I tried troubleshooting to no avail. I left the code in the CSS style file but deleted the added code in the index.html. I was not able to successfully style my new features so they fell to the default styles provided by the browser. I used co-pilot, Chat GPT, and Google to assist me with this project. During this project, I learned that many documents comprise a web page. My code is neater and more organized. 

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Completed Todos</title>
+</head>
+<body>
+    <h1>Completed Todos</h1>
+    <ul>
+        {% for todo in todos %}
+            <li>{{ todo.content }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('show_todos') }}">Back to all todos</a>
+</body>
+</html>
